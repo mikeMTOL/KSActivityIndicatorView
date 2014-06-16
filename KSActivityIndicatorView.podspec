@@ -16,17 +16,16 @@ Pod::Spec.new do |s|
 
                        DESC
   s.homepage         = "http://mikethinkingoutloud.com"
-  s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots      = "https://github.com/mikeMTOL/KSActivityIndicatorView/blob/master/screenshot_1.png?raw=true"
   s.license          = 'MIT'
   s.author           = { "mike" => "" }
-  s.source           = { :git => "http://EXAMPLE/NAME.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mikeMTOL/KSActivityIndicatorView.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/mikeMTOL'
 
   s.platform     = :ios, '6.0'
   s.ios.deployment_target = '6.0'
   s.requires_arc = true
 
-  s.source_files = 'Classes'
-  s.resources = 'Assets/*.png'
-
+  s.source_files = 'Classes/ios'
+  
   end
