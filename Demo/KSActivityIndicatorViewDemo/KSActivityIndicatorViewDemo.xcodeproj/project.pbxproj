@@ -21,6 +21,7 @@
 		4C756EC4194F459B00C71778 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C756EA6194F459B00C71778 /* UIKit.framework */; };
 		4C756ECC194F459B00C71778 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C756ECA194F459B00C71778 /* InfoPlist.strings */; };
 		4C756ECE194F459B00C71778 /* KSActivityIndicatorViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C756ECD194F459B00C71778 /* KSActivityIndicatorViewDemoTests.m */; };
+		4C756EDA194F45E800C71778 /* KSActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C756ED9194F45E800C71778 /* KSActivityIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4C756EC9194F459B00C71778 /* KSActivityIndicatorViewDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSActivityIndicatorViewDemoTests-Info.plist"; sourceTree = "<group>"; };
 		4C756ECB194F459B00C71778 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C756ECD194F459B00C71778 /* KSActivityIndicatorViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSActivityIndicatorViewDemoTests.m; sourceTree = "<group>"; };
+		4C756ED8194F45E800C71778 /* KSActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KSActivityIndicatorView.h; path = ../../Classes/ios/KSActivityIndicatorView.h; sourceTree = "<group>"; };
+		4C756ED9194F45E800C71778 /* KSActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KSActivityIndicatorView.m; path = ../../Classes/ios/KSActivityIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,7 @@
 		4C756E96194F459B00C71778 = {
 			isa = PBXGroup;
 			children = (
+				4C756ED7194F45C700C71778 /* Classes */,
 				4C756EA8194F459B00C71778 /* KSActivityIndicatorViewDemo */,
 				4C756EC7194F459B00C71778 /* KSActivityIndicatorViewDemoTests */,
 				4C756EA1194F459B00C71778 /* Frameworks */,
@@ -150,6 +154,15 @@
 				4C756ECA194F459B00C71778 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C756ED7194F45C700C71778 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C756ED8194F45E800C71778 /* KSActivityIndicatorView.h */,
+				4C756ED9194F45E800C71778 /* KSActivityIndicatorView.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,6 +266,7 @@
 				4C756EB9194F459B00C71778 /* KSViewController.m in Sources */,
 				4C756EB3194F459B00C71778 /* KSAppDelegate.m in Sources */,
 				4C756EAF194F459B00C71778 /* main.m in Sources */,
+				4C756EDA194F45E800C71778 /* KSActivityIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

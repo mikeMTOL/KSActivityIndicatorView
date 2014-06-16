@@ -10,7 +10,9 @@ Pod::Spec.new do |s|
   s.summary          = "KSActivityIndicatorView: A sub class of UIActivityIndicatorView."
   s.description      = <<-DESC
                        KSActivityIndicatorView provides an alternative to UIActivityIndicatorView
-                       that lets you specify the animation with image sequences
+                       that lets you specify the animation with image sequences.
+
+                       The animation can be colorized with tintColor property.
 
                        DESC
   s.homepage         = "http://mikethinkingoutloud.com"
