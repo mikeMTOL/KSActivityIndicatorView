@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = "KSActivityIndicatorView"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "KSActivityIndicatorView: A sub class of UIActivityIndicatorView."
   s.description      = <<-DESC
                        KSActivityIndicatorView provides an alternative to UIActivityIndicatorView
